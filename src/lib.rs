@@ -108,8 +108,6 @@ use std::vec;
 use std::{fmt, mem};
 
 #[cfg(feature = "serde")]
-extern crate serde;
-#[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 
 /// Pre-allocated storage for a uniform data type

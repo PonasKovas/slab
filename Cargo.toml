@@ -1,15 +1,6 @@
 [package]
-
 name = "slab"
-# When releasing to crates.io:
-# - Update version number
-#   - lib.rs: html_root_url.
-#   - README.md
-# - Update CHANGELOG.md
-# - Update doc URL.
-#   - Cargo.toml
-#   - README.md
-# - Create git tag
+edition = "2018"
 version = "0.4.2"
 license = "MIT"
 authors = ["Carl Lerche <me@carllerche.com>"]
